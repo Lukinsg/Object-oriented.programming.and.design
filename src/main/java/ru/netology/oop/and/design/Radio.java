@@ -40,7 +40,7 @@ public class Radio {
 
     public void setSoundVolume(int newSoundVolume) {
         if (newSoundVolume > 10) {
-           return ;
+           return;
         } else if (newSoundVolume < 0) {
             return;
         } else {
